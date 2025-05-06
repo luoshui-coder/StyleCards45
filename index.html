@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StyleCards45 - 45种知识风格卡片</title>
+    <link href="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans SC', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .title {
+            font-family: 'Noto Serif SC', serif;
+            color: #333;
+        }
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="text-center py-10">
+            <h1 class="text-4xl font-bold title mb-4">StyleCards45</h1>
+            <p class="text-xl text-gray-600 mb-6">45种精美设计风格的知识卡片集合</p>
+            <a href="stylecards45.html" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg shadow-md transition duration-300 ease-in-out">
+                查看全部卡片
+            </a>
+        </header>
+        
+        <section class="my-12">
+            <h2 class="text-2xl font-bold title mb-6">关于项目</h2>
+            <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+                <p class="text-gray-700 leading-relaxed mb-4">
+                    StyleCards45是一个展示45种不同设计风格的知识卡片集合，从极简主义到赛博朋克，从巴洛克到孟菲斯风格，每种设计都体现了独特的视觉语言和美学理念。
+                </p>
+                <p class="text-gray-700 leading-relaxed">
+                    这个项目旨在将日常信息以精致奢华的杂志编排呈现，让用户感受到如同翻阅高端杂志般的视觉享受。
+                </p>
+            </div>
+            
+            <h2 class="text-2xl font-bold title mb-6">精选风格预览</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="card bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="p-4 bg-blue-100 text-blue-800 font-medium">
+                        极简主义风格 (Minimalist)
+                    </div>
+                    <div class="p-4">
+                        <p class="text-gray-600">简约、克制，以大量留白和精确排版为特点</p>
+                    </div>
+                </div>
+                
+                <div class="card bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="p-4 bg-pink-100 text-pink-800 font-medium">
+                        大胆现代风格 (Bold Modern)
+                    </div>
+                    <div class="p-4">
+                        <p class="text-gray-600">鲜艳对比色、不对称排版和大胆的字体选择</p>
+                    </div>
+                </div>
+                
+                <div class="card bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="p-4 bg-amber-100 text-amber-800 font-medium">
+                        优雅复古风格 (Elegant Vintage)
+                    </div>
+                    <div class="p-4">
+                        <p class="text-gray-600">复古纸张质感、华丽装饰和传统印刷风格</p>
+                    </div>
+                </div>
+                
+                <div class="card bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="p-4 bg-cyan-100 text-cyan-800 font-medium">
+                        未来科技风格 (Futuristic Tech)
+                    </div>
+                    <div class="p-4">
+                        <p class="text-gray-600">深色背景、霓虹色彩和高科技界面元素</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="my-12">
+            <h2 class="text-2xl font-bold title mb-6">开始使用</h2>
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <ol class="list-decimal list-inside space-y-3 text-gray-700">
+                    <li>克隆仓库到本地</li>
+                    <li>打开<code class="bg-gray-100 px-2 py-1 rounded">stylecards45.html</code>文件即可查看所有风格卡片</li>
+                    <li>点击不同风格的卡片查看详细设计</li>
+                </ol>
+                <div class="mt-6">
+                    <a href="stylecards45.html" class="inline-block bg-green-600 hover:bg-green-700 text-white font-medium py-2 px-4 rounded shadow-sm transition duration-300 ease-in-out">
+                        立即体验
+                    </a>
+                    <a href="https://github.com/yourusername/StyleCards45" class="inline-block ml-4 bg-gray-200 hover:bg-gray-300 text-gray-800 font-medium py-2 px-4 rounded shadow-sm transition duration-300 ease-in-out">
+                        GitHub 仓库
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="mt-12 pt-6 border-t border-gray-200 text-center text-gray-500 text-sm">
+            <p>StyleCards45 &copy; 2023 | <a href="LICENSE" class="text-blue-600 hover:underline">MIT License</a></p>
+        </footer>
+    </div>
+</body>
+</html> 
